@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std; 
+void compute(float); // Στις δηλώσεις, τα ονόματα των ορισμάτων είναι προαιρετικά. 
+int main( ) { 
+float f; // Μεταβλητή κινητής υποδιαστολής. 
+cin >> f; 
+compute(f); 
+return 0; 
+} 
+void compute(float arg) { cout << arg / 2 << endl; } 
