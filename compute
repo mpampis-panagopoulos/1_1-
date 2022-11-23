@@ -1,11 +1,11 @@
-#include <iostream> // Εντολή προς τον προεπεξεργαστή.
+#include <iostream>
 using namespace std;
+int compute(int arg) {
+ return 2 * arg;
+}
 int main( ) {
- cout << "Το πρώτο μου πρόγραμμα\n";
- cout << "Γεια σου " << "κόσμε!" << endl;
- /*
- cout << "Αυτό δεν τυπώνεται." << endl;
- cout << "Ούτε και αυτό." << endl;
- */
- return 0; // Επιστρέφεται στο λειτουργικό. Όλα καλά.
+ int i = 5;
+ cout << compute(i) << endl
+ << i << endl;
+ return 0;
 }
