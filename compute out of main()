@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+int compute(int arg); // Δήλωση της compute.
+int main( ) {
+ int i;
+ cin >> i; // Είσοδος από το πληκτρολόγιο.
+ cout << compute(i) << endl; // Χρήση της compute πριν από
+ return 0; // τον ορισμό της.
+}
+int compute(int arg) { // Ορισμός της συνάρτησης.
+ return 2 * arg;
+}
+
+
